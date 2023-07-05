@@ -1,9 +1,9 @@
 import styles from './Subdivision.module.css';
 
-export default function Spaces(props) {
+export default function Subdivision(props) {
     return <div 
         style={ {backgroundColor: props.black ? "#000" : "#fff"} }
-        className={styles.spaces}>
+        className={styles.subdivision}>
 
     </div>
 }
